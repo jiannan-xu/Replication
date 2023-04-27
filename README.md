@@ -15,8 +15,6 @@ It is hard to locate or reconstruct the EA data used in the paper. However, it i
 - Indexes of implicit/explicit abuse:
 [In question] `CH_Anti_Asian_hate_implicit_indexes.csv` and `CH_Anti_Asianhate_explicit_indexes.csv` include indexes of implicitly and explicitly hateful samples in the _Anti-Asian Hate_ class of the _CH_ dataset, respectively. These indexes correspond to indexes of the `annotated_tweets_w_text.csv` file from the original dataset.  
 
-`EA_dev_hostile_implicit_indexes.csv` and `EA_dev_hostile_explicit_indexes.csv` include indexes of implicitly and explicitly hostile samples in the _Hostile_ class of the _EA-dev_ dataset, respectively.
-
 `EA_dev_hostile_implicit_ids.csv` and `EA_dev_hostile_explicit_ids.csv` include tweet ids of implicitly and explicitly hostile samples of the _EA-dev_ set. 
 
 - Random stopwords tweets
