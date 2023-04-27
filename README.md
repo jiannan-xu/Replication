@@ -6,18 +6,21 @@ Nejadgholi, I. Fraser, K. C., Kiritchenko, S. (2022). Improving Generalizability
 
 ## Data
 
-1.  Raw data:
+1.  Raw data
+
 `annotated_tweets_w_text.csv` includes the raw data used in the paper. This data contains information about [COVID-HATE (CH)](http://claws.cc.gatech.edu/covid/).
 
 It is hard to locate or reconstruct the EA data used in the paper. However, it is a subset of the original data. The original data is available in the following links: [East-Asian Prejudice (EA)](https://zenodo.org/record/3816667#.YUJPkJ1KiUk)
 
 
-2. Indexes of implicit/explicit abuse:
+2. Indexes of implicit/explicit abuse
+
 [In question] `CH_Anti_Asian_hate_implicit_indexes.csv` and `CH_Anti_Asianhate_explicit_indexes.csv` include indexes of implicitly and explicitly hateful samples in the _Anti-Asian Hate_ class of the _CH_ dataset, respectively. These indexes correspond to indexes of the `annotated_tweets_w_text.csv` file from the original dataset.  
 
 `EA_dev_hostile_implicit_ids.csv` and `EA_dev_hostile_explicit_ids.csv` include tweet ids of implicitly and explicitly hostile samples of the _EA-dev_ set. 
 
 3. Random stopwords tweets
+
 Because the authors didn't include this txt file in the repository, I can only try to find some alternative. I found one data that might be a good substitute for this data set (http://help.sentiment140.com/for-students/). Then I included the text of 2000 random tweets, separated by double newlines.
 
 The data is a CSV with emoticons removed. Data file format has 6 fields:
