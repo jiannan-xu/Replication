@@ -31,6 +31,10 @@ The data is a CSV with emoticons removed. Data file format has 6 fields:
 - 4 - the user that tweeted (robotickilldozr)
 - 5 - the text of the tweet (Lyx is cool)
 
+4. Toxicity data sets
+
+The raw data is in the 'wikidata' folder. The following data sets are used to train the _Toxicity_ classifier: `toxic_training`, `toxic_dev`, `toxic_test`(https://www.dropbox.com/scl/fo/eg7nnh8uz25sjqo3wlmtq/h?dl=0&rlkey=z5wdktq2jze5y2okui747dazs)
+
 
 ## Software
 
@@ -53,6 +57,6 @@ The data is a CSV with emoticons removed. Data file format has 6 fields:
 
 These notebooks illusterate how to use the above functionalities. In all of the notebooks, the _Toxicity_ classifier refers to a roberta-based binary classifier trained with the [Wiki](https://github.com/IsarNejad/cross_dataset_toxicity) dataset. 
 
-`TCAV_Example.ipynb`: This notebook shows how to calculate the sensitivity of a trained classifier to a human-defined concept (similar to the results in Table 5 of the paper.  
+`TCAV_Example.ipynb`: This notebook shows how to calculate the sensitivity of a trained classifier to a human-defined concept (similar to the results in Table 5 of the paper).  
 
 [Pending implementation]`DoE_example.ipynb`: This colab notebook calcuates the Degree of Explicitness (DoE scores introduced in section 5 of the paper). 
